@@ -1,9 +1,1908 @@
-<mxfile host="app.diagrams.net" modified="2023-09-25T05:24:05.245Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.8.0" etag="iw3kIwm8y7Jhl-2VMwyG" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-25T05:24:32.270Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="P-VeM_v1GJSUnPS_OBT7" version="21.8.0" type="github">
   <diagram name="第 1 页" id="4d-saxW9QtvG3Liu-2Xx">
-    <mxGraphModel>
+    <mxGraphModel dx="2603" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EFt91VPZfHSzSFag_mg6-1" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-2" target="EFt91VPZfHSzSFag_mg6-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-2" value="定时任务&lt;br&gt;每日新订单-校验过滤" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-3" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-5" target="EFt91VPZfHSzSFag_mg6-9">
+          <mxGeometry y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-4" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-5" target="EFt91VPZfHSzSFag_mg6-6">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-5" value="01.商机项目内部去重" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="180" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-6" value="订单状态：内部验证失败" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-7" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-9" target="EFt91VPZfHSzSFag_mg6-12">
+          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-8" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-9" target="EFt91VPZfHSzSFag_mg6-13">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-9" value="02.全局策略配置去重" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="340" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-12" target="EFt91VPZfHSzSFag_mg6-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-100" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-12" value="03. 根据节假日/是否启动/心跳&amp;nbsp;&lt;br&gt;更新当日【渠道排单表】" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="500" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-13" value="订单状态：全局验证失败" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-14" value="&lt;ul&gt;&lt;li&gt;a.每用户每日 限制&lt;/li&gt;&lt;li&gt;b.每日/月 业务大类/小类/渠道 限制&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-725.5" y="200" width="173" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-15" value="&lt;ul&gt;&lt;li&gt;失败原因：010a&lt;/li&gt;&lt;li&gt;失败原因：010b&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="200" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-16" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;a.每用户 M业务大类/N业务小类 每日/月 限制&lt;/li&gt;&lt;li&gt;b. 每用户 X渠道 每日/月 限制&lt;/li&gt;&lt;li&gt;c. 黑名单&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;d. 渠道 每日数量 限制&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="325" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-17" value="&lt;ul&gt;&lt;li&gt;失败原因：020a&lt;/li&gt;&lt;li&gt;失败原因：020b&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;失败原因：020c&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;失败原因：020d&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="360" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-18" value="&lt;ul&gt;&lt;li&gt;预约 &amp;gt; 意向&lt;/li&gt;&lt;li&gt;紧急 &amp;gt; 一般&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="150" y="564.5" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-20" target="EFt91VPZfHSzSFag_mg6-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-20" value="定时任务&lt;br&gt;每日新订单-渠道分配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-22" target="EFt91VPZfHSzSFag_mg6-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-22" value="02.for 循环：【渠道排单表】" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="210" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-24" target="EFt91VPZfHSzSFag_mg6-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-24" value="02b. 在所有 待分配 订单中 查找 订单相关项目优先级1派送渠道=X&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="271" y="570" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-26" target="EFt91VPZfHSzSFag_mg6-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-26" value="定时任务&lt;br&gt;每日新订单-渠道派单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-29" target="EFt91VPZfHSzSFag_mg6-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-29" target="EFt91VPZfHSzSFag_mg6-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-29" value="02c. 获取订单相关项目列表，含第一渠道的派单数量&lt;br&gt;并按项目类型/紧急类型 排序&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="226" y="680" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-31" target="EFt91VPZfHSzSFag_mg6-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-31" value="02b1. for 循环：【项目列表】" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="675" y="580" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-33" target="EFt91VPZfHSzSFag_mg6-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-33" value="获取项目订单列表 top 项目渠道限额&lt;br&gt;订单状态= 待分配 or 派单失败" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="652.5" y="680" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-35" target="EFt91VPZfHSzSFag_mg6-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-35" value="更新 订单渠道&lt;br&gt;更新 订单状态 = 待派单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="652.5" y="950" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-36" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-39" target="EFt91VPZfHSzSFag_mg6-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-38" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-37">
+          <mxGeometry x="-0.0729" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-39" value="if 当日渠道派单sum数量 &amp;lt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;渠道每日派单限额" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="677.5" y="780" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-41" target="EFt91VPZfHSzSFag_mg6-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-41" value="减少派单数量 至符合 渠道每日派单限额" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="910" y="810" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-43" target="EFt91VPZfHSzSFag_mg6-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1190" y="1090" />
+              <mxPoint x="1190" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-43" value="循环结束" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="697.5" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-45" target="EFt91VPZfHSzSFag_mg6-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="940" />
+              <mxPoint x="150" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-45" value="02d. 循环结束" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="311" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-46" value="04. 订单更新状态：待分配" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="610" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-47" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-280" y="570" width="350" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-48" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-47">
+          <mxGeometry width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-49" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-48">
+          <mxGeometry width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-50" value="渠道A" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-49">
+          <mxGeometry width="80" height="40" as="geometry">
+            <mxRectangle width="80" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-51" value="20230827" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-49">
+          <mxGeometry x="80" width="100" height="40" as="geometry">
+            <mxRectangle width="100" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-52" value="优先级1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-49">
+          <mxGeometry x="180" width="170" height="40" as="geometry">
+            <mxRectangle width="170" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-53" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-48">
+          <mxGeometry y="40" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-54" value="渠道B" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-53">
+          <mxGeometry width="80" height="40" as="geometry">
+            <mxRectangle width="80" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-55" value="20230827" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-53">
+          <mxGeometry x="80" width="100" height="40" as="geometry">
+            <mxRectangle width="100" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-56" value="优先级1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-53">
+          <mxGeometry x="180" width="170" height="40" as="geometry">
+            <mxRectangle width="170" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-57" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-47">
+          <mxGeometry y="80" width="350" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-58" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-57">
+          <mxGeometry width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-59" value="渠道B" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-58">
+          <mxGeometry width="80" height="40" as="geometry">
+            <mxRectangle width="80" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-60" value="20230827" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-58">
+          <mxGeometry x="80" width="100" height="40" as="geometry">
+            <mxRectangle width="100" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-61" value="优先级2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-58">
+          <mxGeometry x="180" width="170" height="40" as="geometry">
+            <mxRectangle width="170" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-62" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-57">
+          <mxGeometry y="40" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-63" value="渠道E" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-62">
+          <mxGeometry width="80" height="40" as="geometry">
+            <mxRectangle width="80" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-64" value="20230827" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-62">
+          <mxGeometry x="80" width="100" height="40" as="geometry">
+            <mxRectangle width="100" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-65" value="优先级2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-62">
+          <mxGeometry x="180" width="170" height="40" as="geometry">
+            <mxRectangle width="170" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-66" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-57">
+          <mxGeometry y="80" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-67" value="渠道C" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-66">
+          <mxGeometry width="80" height="40" as="geometry">
+            <mxRectangle width="80" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-68" value="20230827" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-66">
+          <mxGeometry x="80" width="100" height="40" as="geometry">
+            <mxRectangle width="100" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-69" value="优先级2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-66">
+          <mxGeometry x="180" width="170" height="40" as="geometry">
+            <mxRectangle width="170" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-70" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-72" target="EFt91VPZfHSzSFag_mg6-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-71" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-72" target="EFt91VPZfHSzSFag_mg6-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-72" value="是否满足排单要求？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="410" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-73" value="&lt;ul&gt;&lt;li&gt;当日 未进行排单，取优先级1的所有渠道进行排单&lt;/li&gt;&lt;li&gt;当日 有进行排单，查看当日订单中是存在待派单，且【渠道排单表】中上一优先级的最后更新时间早于30分钟以前，则认为上一优先级派单超时，进行下一优先级渠道 派单&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;当日 有进行排单，查看当日订单中不存在待派单，则认为上一优先级派单结束，进行下一优先级渠道 派单&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;当日 有进行排单，查看当日订单中是否存在待派单，若有且【渠道排单表】中上一优先级的最后更新时间早于30分钟以前，则认为上一优先级派单超时，进行下一优先级渠道 派单&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;渠道排单表 中不存在 排单中 状态&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="470" y="410" width="460" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-75" target="EFt91VPZfHSzSFag_mg6-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-75" value="02a. 更新渠道排单记录 为 排单中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="310" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-77" target="EFt91VPZfHSzSFag_mg6-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-77" value="02c. 更新渠道排单记录 为 已排单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="311" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-78" value="任务结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="176" y="445" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fontColor=#5AA9E6;fillColor=#FFE45E;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-80" target="EFt91VPZfHSzSFag_mg6-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-80" value="01. 查找所有状态=待派单的订单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1285" y="240" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fontColor=#5AA9E6;fillColor=#FFE45E;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-82" target="EFt91VPZfHSzSFag_mg6-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-82" value="02.for 循环：【待派单的订单】" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="370" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fontColor=#5AA9E6;fillColor=#FFE45E;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-84" target="EFt91VPZfHSzSFag_mg6-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-84" value="调用 渠道接口" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fontColor=#5AA9E6;fillColor=#FFE45E;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-89" target="EFt91VPZfHSzSFag_mg6-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-86" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#5AA9E6;" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-85">
+          <mxGeometry x="0.3778" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fontColor=#5AA9E6;fillColor=#FFE45E;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-89" target="EFt91VPZfHSzSFag_mg6-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-88" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#5AA9E6;" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-87">
+          <mxGeometry x="0.0222" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-89" value="是否成功" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1325" y="640" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-90" value="更新订单状态=派单失败" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="650" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-91" value="更新订单状态=派单成功" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1295" y="810" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-92" value="&lt;ul&gt;&lt;li&gt;异常处理&lt;/li&gt;&lt;li&gt;更新project_dispatch&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontColor=#5AA9E6;" vertex="1" parent="1">
+          <mxGeometry x="1325" y="950" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-93" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-94" target="EFt91VPZfHSzSFag_mg6-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-94" value="定时任务&lt;br&gt;每日新订单-校验过滤" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-513" y="1264" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-95" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-97" target="EFt91VPZfHSzSFag_mg6-101">
+          <mxGeometry y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-96" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-97" target="EFt91VPZfHSzSFag_mg6-98">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-97" value="01.商机项目内部去重" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-533" y="1344" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-98" value="订单状态：内部验证失败" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-283" y="1384" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-99" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-101">
+          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-453" y="1664" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-100" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-101" target="EFt91VPZfHSzSFag_mg6-102">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-101" value="02.全局策略配置去重" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-533" y="1504" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-102" value="订单状态：全局验证失败" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-283" y="1544" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-103" value="&lt;ul&gt;&lt;li&gt;a.每用户每日 限制&lt;/li&gt;&lt;li&gt;b.每日/月 业务大类/小类/渠道 限制&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-708.5" y="1364" width="173" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-104" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;a.每用户 M业务大类/N业务小类 每日/月 限制&lt;/li&gt;&lt;li&gt;b. 每用户 X渠道 每日/月 限制&lt;/li&gt;&lt;li&gt;c. 黑名单&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;d. 渠道 每日数量 限制&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-773" y="1489" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-106" target="EFt91VPZfHSzSFag_mg6-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-106" value="03. 订单更新状态：待排单" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-533" y="1664" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-107" value="&lt;ul&gt;&lt;li&gt;预约 &amp;gt; 意向&lt;/li&gt;&lt;li&gt;紧急 &amp;gt; 一般&lt;/li&gt;&lt;li&gt;业务大类&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="528" y="1390" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-108" value="定时任务&lt;br&gt;每日新订单-渠道排单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="303" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-110" target="EFt91VPZfHSzSFag_mg6-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-110" value="for 循环：项目派单渠道列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="261.25" y="1660" width="200" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-112" target="EFt91VPZfHSzSFag_mg6-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-112" value="T_CHANNEL_LOG中insert 项目排单数量F_CNT_PLAN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="262" y="1926" width="201" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-108" target="EFt91VPZfHSzSFag_mg6-123">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="363.5" y="1310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-114" value="&lt;ul&gt;&lt;li&gt;status=待排单 order by 商机类型,紧急程度,业务大类 group by 项目编码&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-373" y="1769" width="254" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-115" value="&lt;ul&gt;&lt;li&gt;失败原因：010a&lt;/li&gt;&lt;li&gt;失败原因：010b&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-153" y="1360" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-116" value="&lt;ul&gt;&lt;li&gt;失败原因：020a&lt;/li&gt;&lt;li&gt;失败原因：020b&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;失败原因：020c&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;失败原因：020d&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-153" y="1520" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-118" target="EFt91VPZfHSzSFag_mg6-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-118" value="04. 根据 商单订单 汇总 【项目列表/订单数量】，保存至T_DAILY_PROJECT" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-533" y="1774" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-123" target="EFt91VPZfHSzSFag_mg6-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-120" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-119">
+          <mxGeometry x="-0.0667" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-123" target="EFt91VPZfHSzSFag_mg6-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-122" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-121">
+          <mxGeometry x="-0.22" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-123" value="05. 查询T_DAILY_PROJECT 有无 排单中 记录" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="283" y="1270" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-125" target="EFt91VPZfHSzSFag_mg6-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-125" value="有正在排单的项目" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="543" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-127" target="EFt91VPZfHSzSFag_mg6-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-127" value="获取该项目的渠道列表（排除 不可用/节假日）" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1556" width="163" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-129" target="EFt91VPZfHSzSFag_mg6-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-129" value="查询优先级最高的“待排单”项目，将状态为 “排单中”" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="281.5" y="1456" width="161.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-131" target="EFt91VPZfHSzSFag_mg6-129">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="813" y="1486" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-131" value="查询有无与“排单中”项目优先级 相同的项目" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="733" y="1270" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-132" value="&lt;ul&gt;&lt;li&gt;相同优先级的项目之间 订单不分先后&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="529" y="1350" width="254" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-133" value="05. 新增 所有渠道的每日库存表T_DAILY_CHANNEL" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-533" y="1914" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-134" value="&lt;ul&gt;&lt;li&gt;排除 不可用/节假日，根据全局策略，获取所有渠道每日限额，无限额为.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-373" y="1904" width="254" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-135" value="&lt;ul&gt;&lt;li&gt;T_DAILY_CHANNEL的F_CNT_PLAN&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;若某一渠道 余量不足，则调剂到下一渠道&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="476" y="1546" width="357" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-136" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-137" target="EFt91VPZfHSzSFag_mg6-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-137" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;根据商机订单数量 在T_DAILY_CHANNEL不同渠道 占用排单量（乐观锁 或 行锁）&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="262" y="1826" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-138" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-139" target="EFt91VPZfHSzSFag_mg6-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-139" value="事务开始" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="301.25" y="1756" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-140" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-141" target="EFt91VPZfHSzSFag_mg6-143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-141" value="T_DAILY_PROJECT 中merge into该项目今日的F_CNT_PLAN数量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="2026" width="201" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-142" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-143" target="EFt91VPZfHSzSFag_mg6-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-143" value="更新订单的渠道 和 状态=&quot;待派单&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="262.25" y="2119" width="201" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-146" target="EFt91VPZfHSzSFag_mg6-110">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="2231" />
+              <mxPoint x="180" y="1685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-145" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-146" target="EFt91VPZfHSzSFag_mg6-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-146" value="事务提交" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="302.75" y="2217" width="120" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-148" target="EFt91VPZfHSzSFag_mg6-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-148" value="若所有配置渠道余量不足，更新剩余订单状态为“派单失败“" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="707.5" y="1663" width="192.5" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-149" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-150" target="EFt91VPZfHSzSFag_mg6-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-150" value="T_DAILY_PROJECT 中更新项目今日的F_CNT_DISPATCH_FAIL数量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="707.5" y="1756" width="192.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-151" value="结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="763.75" y="1870" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-152" value="" style="swimlane;startSize=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1646" width="400" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-153" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-154" target="EFt91VPZfHSzSFag_mg6-298">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1220.75" y="2504.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-154" value="商机单 定时任务&lt;br&gt;T+1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1300" y="2379" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-155" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-158" target="EFt91VPZfHSzSFag_mg6-377">
+          <mxGeometry y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-156" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-155">
+          <mxGeometry x="-0.2226" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-157" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-158" target="EFt91VPZfHSzSFag_mg6-159">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-158" value="请求去重&lt;br&gt;TO_PROJECT_BASE" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1320" y="2760" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-159" value="状态：内部验证失败" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-1110" y="2800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-160" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-162" target="EFt91VPZfHSzSFag_mg6-163">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-161" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-162" target="EFt91VPZfHSzSFag_mg6-519">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-162" value="全局策略 去重&lt;br&gt;TO_CONFIG" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1320" y="3080" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-163" value="状态：全局验证失败" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="3120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-164" value="&lt;ul&gt;&lt;li&gt;a.每用户每日 限制&lt;/li&gt;&lt;li&gt;b.每日/月 业务大类/小类/渠道 限制&lt;br&gt;&lt;/li&gt;&lt;li&gt;c. 特殊（采集类）项目内去重，同一用户只取优先级最高的一条，舍弃其他&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-1560" y="2775" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-165" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;a. 每用户 M业务大类/N业务小类 每日/月 限制(非实时)&lt;/li&gt;&lt;li&gt;c. 黑名单 (all)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-1560" y="3065" width="231" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-166" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-167" target="EFt91VPZfHSzSFag_mg6-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-167" value="生成订单，状态：待排单&lt;br&gt;TO_ORDER" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-1320" y="3357" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-169" target="EFt91VPZfHSzSFag_mg6-512">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-169" value="商机单 定时任务&lt;br&gt;T+1&lt;br&gt;渠道排单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="2217" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-170" value="&lt;ul&gt;&lt;li&gt;select from to_order where status=待排单 order by 业务大类 group by 项目编码&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-1163" y="3431" width="254" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-171" value="&lt;ul&gt;&lt;li&gt;失败原因：010a&lt;/li&gt;&lt;li&gt;失败原因：010b&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;失败原因：010c&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="2780" width="192" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-172" value="&lt;ul&gt;&lt;li&gt;失败原因：020a&lt;/li&gt;&lt;li&gt;失败原因：020b&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;失败原因：020c&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;失败原因：020d&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-968.5" y="3095" width="162" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-173" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-174" target="EFt91VPZfHSzSFag_mg6-176">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-174" value="商机单订单 汇总&lt;br&gt;【项目列表/订单数量】，merge into至T_DAILY_PROJECT" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-1320" y="3441" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-175" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-176" target="EFt91VPZfHSzSFag_mg6-208">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-176" value="insert into 所有渠道的每日库存表T_DAILY_CHANNEL" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-1320" y="3541" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-177" value="&lt;ul&gt;&lt;li&gt;排除 不可用/节假日，根据全局策略，获取所有渠道每日限额，无限额为空.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-1163" y="3531" width="254" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-178" value="" style="swimlane;startSize=0;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-771" y="2601" width="901" height="900" as="geometry">
+            <mxRectangle x="-644" y="2720" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-179" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;更新T_DAILY_CHANNEL中该渠道 占用排单量F_PLAN_TASK&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontColor=#333333;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-178">
+          <mxGeometry x="270" y="678" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-180" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EFt91VPZfHSzSFag_mg6-178" source="EFt91VPZfHSzSFag_mg6-181" target="EFt91VPZfHSzSFag_mg6-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-181" value="T_DAILY_PROJECT 中更新该项目今日的F_CNT_Plan/F_CNT_PLAN_FAIL数量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-178">
+          <mxGeometry x="250" y="578" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-182" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EFt91VPZfHSzSFag_mg6-178" source="EFt91VPZfHSzSFag_mg6-183" target="EFt91VPZfHSzSFag_mg6-189">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-183" value="for 循环：项目派单渠道列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-178">
+          <mxGeometry x="270" y="178" width="200" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EFt91VPZfHSzSFag_mg6-178" target="EFt91VPZfHSzSFag_mg6-183">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="402" />
+              <mxPoint x="217" y="402" />
+              <mxPoint x="217" y="203" />
+            </Array>
+            <mxPoint x="269.97" y="409" as="sourcePoint" />
+            <mxPoint x="269.97" y="-62" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-185" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EFt91VPZfHSzSFag_mg6-178" source="EFt91VPZfHSzSFag_mg6-186" target="EFt91VPZfHSzSFag_mg6-192">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-186" value="更新to_order状态为&quot;待派单&quot;，操作时间，订单日志，渠道编码，团队信息，节点信息，波次编号" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontColor=#333333;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-178">
+          <mxGeometry x="270" y="376" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-187" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EFt91VPZfHSzSFag_mg6-178" source="EFt91VPZfHSzSFag_mg6-189" target="EFt91VPZfHSzSFag_mg6-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-188" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-187">
+          <mxGeometry x="-0.0125" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-189" value="if 有可用渠道 and 派单数量 &amp;lt; 项目/全局渠道限制 and &amp;lt; （t_daily_channel中全局 渠道日处理量-排单量+派单失败量）" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-178">
+          <mxGeometry x="295" y="258" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-190" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EFt91VPZfHSzSFag_mg6-178" source="EFt91VPZfHSzSFag_mg6-192" target="EFt91VPZfHSzSFag_mg6-193">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-191" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EFt91VPZfHSzSFag_mg6-178" source="EFt91VPZfHSzSFag_mg6-192" target="EFt91VPZfHSzSFag_mg6-181">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-192" value="更新T_DAILY_PROJECT&lt;br&gt;项目状态" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-178">
+          <mxGeometry x="290" y="460" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-193" value="if 派单中订单数量&amp;gt;0, 状态=&quot;待派单&quot;&lt;br&gt;if 派单失败订单数量==all, 状态=&quot;已派单&quot;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-178">
+          <mxGeometry x="491" y="473.25" width="253" height="53.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="EFt91VPZfHSzSFag_mg6-178">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="268.5" y="808.75" as="sourcePoint" />
+            <mxPoint x="269.5" y="29" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="269" y="799" />
+              <mxPoint x="110" y="799" />
+              <mxPoint x="110" y="29" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-195" value="T_CHANNEL_LOG&lt;br&gt;insert 项目派单记录F_Amount=排单数量，op_type=“HOLD”" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-178">
+          <mxGeometry x="269.5" y="768" width="201" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="EFt91VPZfHSzSFag_mg6-178" source="EFt91VPZfHSzSFag_mg6-179" target="EFt91VPZfHSzSFag_mg6-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-197" value="&lt;ul&gt;&lt;li&gt;失败原因：030a&lt;/li&gt;&lt;li&gt;失败原因：030b&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;失败原因：030c&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;失败原因：030d&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;失败原因：030e&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-178">
+          <mxGeometry x="751" y="252" width="192" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-198" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;a/c: 更新to_order状态为&quot;派单失败&quot;，操作时间/订单日志&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;b:&amp;nbsp; &amp;nbsp; 更新to_order状态为“已作废”，操作时间/订单日志&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-178">
+          <mxGeometry x="567" y="265.5" width="173" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="EFt91VPZfHSzSFag_mg6-178" source="EFt91VPZfHSzSFag_mg6-198" target="EFt91VPZfHSzSFag_mg6-192">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="653" y="448" />
+              <mxPoint x="371" y="448" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-200" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EFt91VPZfHSzSFag_mg6-178" source="EFt91VPZfHSzSFag_mg6-189" target="EFt91VPZfHSzSFag_mg6-198">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-201" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-200">
+          <mxGeometry x="-0.1126" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-202" value="T_DAILY_PROJECT*1&lt;br&gt;状态更新为“排单中”" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-178">
+          <mxGeometry x="290.75" y="101" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-203" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EFt91VPZfHSzSFag_mg6-178" source="EFt91VPZfHSzSFag_mg6-202" target="EFt91VPZfHSzSFag_mg6-183">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-204" value="for 循环：项目列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-178">
+          <mxGeometry x="270.5" y="6" width="200" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-205" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EFt91VPZfHSzSFag_mg6-178">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="369.5714285714289" y="55.000000000000455" as="sourcePoint" />
+            <mxPoint x="368.8571428571431" y="101.00000000000045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-206" value="&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;a. 项目校验：日派单量&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;b. 全局：每用户 X渠道 每日/月 限制(非实时)&lt;/li&gt;&lt;li&gt;c. 全局：渠道 每日数量 限制 (非实时)&lt;/li&gt;&lt;li&gt;d. 是否有可用渠道&lt;/li&gt;&lt;li&gt;e. 渠道额度是否满足&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-178">
+          <mxGeometry x="6" y="223" width="289" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-207" value="&lt;ul&gt;&lt;li&gt;判断地市&lt;/li&gt;&lt;li&gt;判断日期&lt;/li&gt;&lt;li&gt;更新订单的处理时效&lt;br&gt;F_EXPIRY_DATE=节假日结束时间后第一个工作日的开始处理时间+渠道处理时效（单位：小时）&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-178">
+          <mxGeometry x="541" y="139" width="249" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-208" value="END" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-1280" y="3654" width="80" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-209" value="处理渠道 A&lt;br&gt;5000" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="3600" width="199" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-210" value="项目1 优先级*****&lt;br&gt;4000" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="3520" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-211" value="项目2&amp;nbsp;&amp;nbsp;优先级*****&lt;br&gt;6000" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="3640" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-212" value="项目3&amp;nbsp;&amp;nbsp;优先级**&lt;br&gt;7500" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="3760" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-213" value="处理渠道 D&lt;br&gt;3000" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="3720" width="199" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-214" value="1.渠道A 4000&lt;br&gt;2.渠道B&lt;br&gt;3.渠道C 1000" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1574" y="3520" width="176" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-215" value="1.渠道B 4000&lt;br&gt;2.渠道E 2000&lt;br&gt;3.渠道F" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1574" y="3640" width="176" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-216" value="1.渠道A 1000&lt;br&gt;2.渠道C 3000&lt;br&gt;3.渠道D 3000" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1574" y="3760" width="176" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-217" value="处理渠道 B&lt;br&gt;6000" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1987" y="3600" width="209" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-218" value="处理渠道 E&lt;br&gt;2000" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1987" y="3720" width="212" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-219" value="处理渠道 C&lt;br&gt;3000" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2209" y="3600" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-220" value="处理渠道 F&lt;br&gt;1000" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2209" y="3720" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-221" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-298" target="EFt91VPZfHSzSFag_mg6-224">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1220.7777777777778" y="2748.0000000000005" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-222" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-221">
+          <mxGeometry x="-0.1047" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-223" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-224" target="EFt91VPZfHSzSFag_mg6-158">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-224" value="按&lt;br&gt;业务大类/商机类型/紧急程度&lt;br&gt;排序" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1320" y="2640" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-225" value="&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;相同优先级的项目之间 不分先后&lt;/li&gt;&lt;li&gt;预约 &amp;gt; 意向&lt;/li&gt;&lt;li&gt;紧急 &amp;gt; 一般&lt;/li&gt;&lt;li&gt;业务大类&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-1149" y="2630" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-226" value="&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;相同优先级的项目之间 订单不分先后&lt;/li&gt;&lt;li&gt;预约 &amp;gt; 意向&lt;/li&gt;&lt;li&gt;紧急 &amp;gt; 一般&lt;/li&gt;&lt;li&gt;业务大类&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-1244" y="780" width="254" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-227" value="意向单 定时任务&lt;br&gt;T+1&lt;br&gt;渠道排单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1469" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-228" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-271" target="EFt91VPZfHSzSFag_mg6-243">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-229" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-227" target="EFt91VPZfHSzSFag_mg6-234">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1408.5" y="700" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-230" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-234" target="EFt91VPZfHSzSFag_mg6-238">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-231" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-230">
+          <mxGeometry x="-0.0667" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-232" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-234" target="EFt91VPZfHSzSFag_mg6-241">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1229" y="699.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-233" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-232">
+          <mxGeometry x="-0.22" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-234" value="查询T_DAILY_PROJECT 有无 派单中 记录" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1489" y="660" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-235" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-236" target="EFt91VPZfHSzSFag_mg6-271">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-236" value="获取该项目的渠道列表（排除 不可用/节假日）TO_PROJECT_DZ_TEAM" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1492" y="946" width="172" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-237" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-238" target="EFt91VPZfHSzSFag_mg6-236">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-238" value="查询优先级最高的“待派单”项目， update to_daily_project状态为 “派单中”" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-1490.5" y="846" width="170.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-241" target="EFt91VPZfHSzSFag_mg6-238">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-959" y="876" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-240" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-239">
+          <mxGeometry x="-0.8528" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-241" value="查询 是否有 “派单中”项目 优先级相同的项目" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1039" y="660" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-242" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-243" target="EFt91VPZfHSzSFag_mg6-245">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-243" value="while 派单数量 &amp;lt; 项目渠道限制" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1510" y="1146" width="200" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-244" value="" style="swimlane;startSize=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-1642" y="1036" width="1000" height="951" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-245" value="调用 渠道接口" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontColor=#333333;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-244">
+          <mxGeometry x="438" y="110" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-246" value="是否成功" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-244">
+          <mxGeometry x="443" y="184" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-247" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fontColor=#5AA9E6;fillColor=#FFE45E;" edge="1" parent="EFt91VPZfHSzSFag_mg6-244" source="EFt91VPZfHSzSFag_mg6-245" target="EFt91VPZfHSzSFag_mg6-246">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-248" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EFt91VPZfHSzSFag_mg6-244" source="EFt91VPZfHSzSFag_mg6-249" target="EFt91VPZfHSzSFag_mg6-256">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-249" value="更新订单状态=派单失败" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontColor=#333333;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-244">
+          <mxGeometry x="602" y="202" width="135" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-250" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fontColor=#5AA9E6;fillColor=#FFE45E;" edge="1" parent="EFt91VPZfHSzSFag_mg6-244" source="EFt91VPZfHSzSFag_mg6-246" target="EFt91VPZfHSzSFag_mg6-249">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-251" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#5AA9E6;" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-250">
+          <mxGeometry x="0.3778" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-252" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.933;entryY=0.527;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="EFt91VPZfHSzSFag_mg6-244" source="EFt91VPZfHSzSFag_mg6-253" target="EFt91VPZfHSzSFag_mg6-265">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-253" value="更新订单状态=派单成功" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontColor=#333333;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-244">
+          <mxGeometry x="413" y="304" width="170" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-254" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fontColor=#5AA9E6;fillColor=#FFE45E;" edge="1" parent="EFt91VPZfHSzSFag_mg6-244" source="EFt91VPZfHSzSFag_mg6-246" target="EFt91VPZfHSzSFag_mg6-253">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-255" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#5AA9E6;" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-254">
+          <mxGeometry x="0.0222" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-256" value="失败订单过多，考虑关闭该渠道，更换下一个渠道？" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-244">
+          <mxGeometry x="782" y="194" width="187" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-257" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EFt91VPZfHSzSFag_mg6-244" source="EFt91VPZfHSzSFag_mg6-258" target="EFt91VPZfHSzSFag_mg6-260">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-258" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;更新T_DAILY_CHANNEL中该渠道 占用派单量F_CNT_Dispatch&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontColor=#333333;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-244">
+          <mxGeometry x="132" y="404" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-259" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EFt91VPZfHSzSFag_mg6-244" source="EFt91VPZfHSzSFag_mg6-260" target="EFt91VPZfHSzSFag_mg6-262">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-260" value="T_CHANNEL_LOG中insert 项目派单记录F_CNT_Dispatch=派单数量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-244">
+          <mxGeometry x="132" y="494" width="201" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-261" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EFt91VPZfHSzSFag_mg6-244" source="EFt91VPZfHSzSFag_mg6-262" target="EFt91VPZfHSzSFag_mg6-266">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-262" value="T_DAILY_PROJECT 中更新该项目今日的F_CNT_Dispatch数量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-244">
+          <mxGeometry x="132" y="591" width="201" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-263" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EFt91VPZfHSzSFag_mg6-244" source="EFt91VPZfHSzSFag_mg6-265" target="EFt91VPZfHSzSFag_mg6-258">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-264" value="YEs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-263">
+          <mxGeometry x="-0.0467" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-265" value="渠道数量达到上限" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-244">
+          <mxGeometry x="177" y="284" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-266" value="若所有配置渠道余量不足，更新剩余订单状态为“派单失败“" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-244">
+          <mxGeometry x="136.75" y="694" width="192.5" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-267" value="T_DAILY_PROJECT 中更新项目今日的F_CNT_DISPATCH_FAIL数量，项目状态为&quot;已派单&quot;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-244">
+          <mxGeometry x="136.75" y="787" width="192.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-268" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EFt91VPZfHSzSFag_mg6-244" source="EFt91VPZfHSzSFag_mg6-266" target="EFt91VPZfHSzSFag_mg6-267">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-269" value="结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-244">
+          <mxGeometry x="193" y="901" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-270" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EFt91VPZfHSzSFag_mg6-244" source="EFt91VPZfHSzSFag_mg6-267" target="EFt91VPZfHSzSFag_mg6-269">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-271" value="for 循环：项目派单渠道列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EFt91VPZfHSzSFag_mg6-244">
+          <mxGeometry x="136" y="14" width="200" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-272" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="EFt91VPZfHSzSFag_mg6-244" source="EFt91VPZfHSzSFag_mg6-262" target="EFt91VPZfHSzSFag_mg6-271">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="132" y="624" />
+              <mxPoint x="62" y="624" />
+              <mxPoint x="62" y="39" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-273" value="END" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-441" y="3540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-274" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-275" target="EFt91VPZfHSzSFag_mg6-291">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="328.5" y="2440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-275" value="商机单 定时任务&lt;br&gt;T+1&lt;br&gt;渠道派单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="268.5" y="2340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-276" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fontColor=#5AA9E6;fillColor=#FFE45E;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-277" target="EFt91VPZfHSzSFag_mg6-514">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-277" value="for 循环：【待派单的订单】&lt;br&gt;按订单优先级" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="228.5" y="2560" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-278" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fontColor=#5AA9E6;fillColor=#FFE45E;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-279" target="EFt91VPZfHSzSFag_mg6-284">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-279" value="调用 渠道接口" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="268.5" y="2746.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-280" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fontColor=#5AA9E6;fillColor=#FFE45E;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-284" target="EFt91VPZfHSzSFag_mg6-285">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-281" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#5AA9E6;" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-280">
+          <mxGeometry x="0.3778" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-282" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fontColor=#5AA9E6;fillColor=#FFE45E;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-284" target="EFt91VPZfHSzSFag_mg6-287">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-283" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#5AA9E6;" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-282">
+          <mxGeometry x="0.0222" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-284" value="是否成功" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="273.5" y="2827.5" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-285" value="更新TO_ORDER&lt;br&gt;状态=派单异常" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="439.5" y="2848" width="143.88" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-286" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-287" target="EFt91VPZfHSzSFag_mg6-304">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-287" value="更新订单状态=处理中&lt;br&gt;根据渠道处理时效更新订单&lt;br&gt;/更新订单日志/过期时间" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="243.5" y="2946.5" width="170" height="49.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-288" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-289" target="EFt91VPZfHSzSFag_mg6-308">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="569.5" y="3250" />
+              <mxPoint x="438.5" y="3250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-289" value="更新T_DAILY_PROJECT&lt;br&gt;状态为&quot;派单异常&quot;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="497.62" y="3170" width="143.88" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-290" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-291" target="EFt91VPZfHSzSFag_mg6-277">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-291" value="T_DAILY_PROJECT查找待派单的项目，更新状态为“派单中” where 状态=&#39;待派单&#39;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="233.5" y="2448" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-292" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-293" target="EFt91VPZfHSzSFag_mg6-308">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-293" value="更新T_DAILY_PROJECT状态为“处理中”" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="259" y="3170" width="139" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-294" value="&lt;ul&gt;&lt;li&gt;失败原因：000a&lt;/li&gt;&lt;li&gt;失败原因：000b&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;失败原因：000c&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-968.5" y="2490" width="162" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-295" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-174" target="EFt91VPZfHSzSFag_mg6-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-296" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-298" target="EFt91VPZfHSzSFag_mg6-299">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-297" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-296">
+          <mxGeometry x="-0.3103" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-298" value="校验 TO_PROJECT_BASE&amp;nbsp;已启用/有效期/F_GEN_METHOD=‘NEXT’&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;的项目" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1320" y="2474" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-299" value="状态：项目验证失败" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="2514" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-300" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-304" target="EFt91VPZfHSzSFag_mg6-293">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-301" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-300">
+          <mxGeometry x="-0.3545" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-302" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.555;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-304" target="EFt91VPZfHSzSFag_mg6-289">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-303" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-302">
+          <mxGeometry x="-0.1649" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-304" value="if 所有订单派单成功" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="268.5" y="3040" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-305" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-306" target="EFt91VPZfHSzSFag_mg6-311">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-306" value="更新T_DAILY_CHANNEL&lt;br&gt;F_DISPATCH_YXD += 派单成功数量&lt;br&gt;F_DISPATCHF_YXD += 派单异常数量" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="323" y="3390" width="211" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-307" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-308" target="EFt91VPZfHSzSFag_mg6-306">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-308" value="更新T_DAILY_PROJECT&lt;br&gt;F_CNT_DISPATCH+=派单成功数量" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="323" y="3290" width="211" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-309" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-195" target="EFt91VPZfHSzSFag_mg6-273">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-274" y="3650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-401" y="3540" />
+              <mxPoint x="-401" y="3540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-310" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-311" target="EFt91VPZfHSzSFag_mg6-312">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-311" value="T_CHANNEL_LOG&lt;br&gt;insert 记录F_Amount=派单成功数量，op_type=“DS”。&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;insert 记录F_Amount=派单失败数量，op_type=“DF“" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="321.5" y="3482" width="214" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-312" value="END" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="388.5" y="3600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-313" value="根据 配置参数&lt;br&gt;查询 项目列表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="2179" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-314" value="&lt;ul&gt;&lt;li&gt;优先级排序【顺】序TO_DAILY_PROJECT.F_PRIORITY_PRO&lt;br&gt;TO_DAILY_PROJECT.F_PRIORITY_BATCH&lt;br&gt;TO_DAILY_PROJECT.F_PRIORITY_FAIL&lt;br&gt;&lt;/li&gt;&lt;li&gt;配置参数：订单数量上限Y&lt;/li&gt;&lt;li&gt;至少要有一个项目&lt;/li&gt;&lt;li&gt;若项目数量大于1，但订单数量大于Y，根据最后一个项目的订单数量多少，若小于Y*30%，项目数量-1，放弃最后一个项目&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="2429" width="289" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-315" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-316" target="EFt91VPZfHSzSFag_mg6-318">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-316" value="待排单&lt;br&gt;T+1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1392.5" y="4011" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-317" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-318" target="EFt91VPZfHSzSFag_mg6-355">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-318" value="待派单" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1392.5" y="4111" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-319" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-320" target="EFt91VPZfHSzSFag_mg6-336">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1452.5" y="4551" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-320" value="处理中" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1392.5" y="4441" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-321" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-322" target="EFt91VPZfHSzSFag_mg6-347">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-322" value="派单失败&lt;br&gt;超限额" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1722.5" y="4161" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-323" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-324" target="EFt91VPZfHSzSFag_mg6-347">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-324" value="&lt;strike&gt;派单失败&lt;br&gt;节假日&lt;/strike&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1779.5" y="4231" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-325" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-324" target="EFt91VPZfHSzSFag_mg6-347">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-326" value="派单失败&lt;br&gt;无可用接口" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1734.5" y="4301" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-327" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-328">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1932.5" y="4421" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-328" value="派单失败&lt;br&gt;超时（T+2日）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1637" y="4371" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-329" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-330" target="EFt91VPZfHSzSFag_mg6-316">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-330" value="待验证&lt;br&gt;T+0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1392.5" y="3911" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-331" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-336" target="EFt91VPZfHSzSFag_mg6-338">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-332" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-336" target="EFt91VPZfHSzSFag_mg6-338">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-333" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-336" target="EFt91VPZfHSzSFag_mg6-338">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-334" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-336" target="EFt91VPZfHSzSFag_mg6-340">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-335" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-336" target="EFt91VPZfHSzSFag_mg6-360">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-336" value="渠道办理" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1392.5" y="4587" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-337" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-338" target="EFt91VPZfHSzSFag_mg6-352">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-338" value="外呼失败" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1152.5" y="4511" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-339" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-340" target="EFt91VPZfHSzSFag_mg6-352">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-340" value="处理超时&lt;br&gt;根据项目派单设置" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1152.5" y="4681" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-341" value="办理成功" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1392.5" y="4891" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-342" value="作废&lt;br&gt;全局策略设置&lt;br&gt;过期时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1962.5" y="4701" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-343" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-347" target="EFt91VPZfHSzSFag_mg6-342">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-344" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-343">
+          <mxGeometry x="-0.6802" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-345" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-347" target="EFt91VPZfHSzSFag_mg6-320">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1942.5" y="4471" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-346" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-345">
+          <mxGeometry x="-0.677" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-347" value="补单成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1872.5" y="4431" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-348" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-352" target="EFt91VPZfHSzSFag_mg6-320">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-349" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-348">
+          <mxGeometry x="-0.0583" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-350" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-352" target="EFt91VPZfHSzSFag_mg6-367">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970.5" y="4311" />
+              <mxPoint x="1642.5" y="4311" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-351" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-350">
+          <mxGeometry x="-0.1773" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-352" value="第N波次派单" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="4431" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-353" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-355" target="EFt91VPZfHSzSFag_mg6-320">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-354" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-355" target="EFt91VPZfHSzSFag_mg6-367">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-355" value="派单中" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1392.5" y="4211" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-356" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-357">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2072.5" y="4701" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-357" value="派单失败&lt;br&gt;全局策略个人超限" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2012.5" y="4051" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-358" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-360" target="EFt91VPZfHSzSFag_mg6-341">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-359" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-360" target="EFt91VPZfHSzSFag_mg6-361">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-360" value="外呼成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1392.5" y="4731" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-361" value="办理失败" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1582.5" y="4891" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-362" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-367" target="EFt91VPZfHSzSFag_mg6-322">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1657.5" y="4191" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-363" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-367" target="EFt91VPZfHSzSFag_mg6-324">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-364" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-367" target="EFt91VPZfHSzSFag_mg6-326">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-365" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-367" target="EFt91VPZfHSzSFag_mg6-328">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-366" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-367" target="EFt91VPZfHSzSFag_mg6-357">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1642.5" y="4081" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-367" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1637" y="4261" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-368" value="&lt;ul&gt;&lt;li&gt;需派单校验：项目/全局&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="982.5" y="4351" width="192" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-369" value="&lt;ul&gt;&lt;li&gt;需派单校验：项目/全局&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1836.5" y="4491" width="192" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-370" value="波次属性" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="859" y="2494" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-371" value="超时补单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="859" y="2349" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-372" value="非超时补单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="859" y="2420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-373" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-377" target="EFt91VPZfHSzSFag_mg6-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-374" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-373">
+          <mxGeometry x="-0.0253" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-375" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-377" target="EFt91VPZfHSzSFag_mg6-378">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-376" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-375">
+          <mxGeometry x="-0.078" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-377" value="节假日过滤&lt;br&gt;TO_PROJECT_BASE" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1320" y="2920" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-378" value="不修改 请求状态&lt;br&gt;等待下一日 定时任务 再次处理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-1110" y="2955" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-379" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;a. 若项目相关渠道只剩一个且当前时间在 节假日，则保留请求不生成订单&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-1559" y="2935" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-380" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-413" target="EFt91VPZfHSzSFag_mg6-392">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1429.238095238095" y="2980" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-381" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-385" target="EFt91VPZfHSzSFag_mg6-409">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-382" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-381">
+          <mxGeometry x="0.0858" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-383" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-385" target="EFt91VPZfHSzSFag_mg6-415">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-384" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-383">
+          <mxGeometry x="0.0218" y="1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-385" value="是否有 “排单中”项目&lt;br&gt;有多个，取最高优先级" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="2659.5" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-386" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-389" target="EFt91VPZfHSzSFag_mg6-397">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-387" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-386">
+          <mxGeometry x="-0.05" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-388" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-389" target="EFt91VPZfHSzSFag_mg6-391">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-389" value="是否有 “派单异常”项目&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1349" y="2420" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-390" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2004" y="2973" as="sourcePoint" />
+            <mxPoint x="1510" y="3280.7500000000005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2004" y="3281" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-391" value="查询状态为“派单异常”的项目" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1924" y="2940" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-392" value="T_DAILY_PROJECT&lt;br&gt;状态更新为“排单中”" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="3254" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-393" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-397" target="EFt91VPZfHSzSFag_mg6-401">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-394" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-393">
+          <mxGeometry x="0.1852" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-395" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-397" target="EFt91VPZfHSzSFag_mg6-385">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-396" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-395">
+          <mxGeometry x="0.2071" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-397" value="是否有 “派单中”项目&lt;br&gt;有多个，取最高优先级" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1349" y="2540" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-398" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-401" target="EFt91VPZfHSzSFag_mg6-404">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-399" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.989;entryY=0.352;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-401" target="EFt91VPZfHSzSFag_mg6-413">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1629" y="2874" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-400" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-399">
+          <mxGeometry x="-0.5454" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-401" value="是否有项目 比“派单中”项目&lt;br&gt;优先级 高" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="2540" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-402" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-404" target="EFt91VPZfHSzSFag_mg6-413">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1826" y="2880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-403" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-402">
+          <mxGeometry x="-0.7333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-404" value="是否有项目 与“派单中”项目&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;优先级 相同" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1746" y="2540" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-405" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-409" target="EFt91VPZfHSzSFag_mg6-412">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-406" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-405">
+          <mxGeometry x="0.1339" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-407" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1233" y="2729.75" as="sourcePoint" />
+            <mxPoint x="1415.25" y="2870.25" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1229" y="2730" />
+              <mxPoint x="1229" y="2870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-408" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-407">
+          <mxGeometry x="-0.5574" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-409" value="是否有项目 比“排单中”项目&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;优先级 高" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1149" y="2659.5" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-410" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-412" target="EFt91VPZfHSzSFag_mg6-413">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1029" y="2880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-411" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-410">
+          <mxGeometry x="-0.7592" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-412" value="是否有项目 与“排单中”项目&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;优先级 相同" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="2659.5" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-413" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1409.25" y="2860" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-414" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-415" target="EFt91VPZfHSzSFag_mg6-413">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-415" value="查询 优先级最高 项目" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1349" y="2780" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-416" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-417" target="EFt91VPZfHSzSFag_mg6-419">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-417" value="项目 按 是否派单异常，项目优先级，波次 排序" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-481.25" y="2440" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-418" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-419" target="EFt91VPZfHSzSFag_mg6-204">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-419" value="按 配置 数量 获取项目列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-481.25" y="2520" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-420" value="&lt;ul&gt;&lt;li&gt;项目内派单超限：030a&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;全局渠道派单超限：030c&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;渠道剩余额度不足：030e&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1836.5" y="4111" width="192" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-421" value="&lt;ul&gt;&lt;li&gt;全局用户派单超限：030b&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="2124.5" y="4041" width="192" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-422" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-326" target="EFt91VPZfHSzSFag_mg6-347">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1854.5" y="4331" as="sourcePoint" />
+            <mxPoint x="1932.5" y="4431" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-423" value="&lt;ul&gt;&lt;li&gt;无可用接口：030d&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1926.5" y="4291" width="192" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-424" value="&lt;ul&gt;&lt;li&gt;f_batch1=当前日期&lt;br&gt;F_PRIORITY_PRO = 相关项目优先级&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;F_PRIORITY_BATCH = 1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;F_PRIORITY_FAIL = 1&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-1160" y="3340" width="254" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-425" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-426" target="EFt91VPZfHSzSFag_mg6-447">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-426" value="商机单 实时接口&lt;br&gt;走 每日定时任务" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1295" y="3711" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-427" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-428" target="EFt91VPZfHSzSFag_mg6-430">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-428" value="商机单 指定时间&lt;br&gt;定时任务" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-481" y="3710" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-429" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-430" target="EFt91VPZfHSzSFag_mg6-437">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-430" value="查询 TO_PROJECT_BASE&amp;nbsp;已启用/有效期/F_GEN_METHOD=‘SPEC’&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;的项目&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-547.5" y="3800" width="253" height="53.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-431" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-435" target="EFt91VPZfHSzSFag_mg6-437">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-301" y="4030" />
+              <mxPoint x="-301" y="3926" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-432" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-431">
+          <mxGeometry x="-0.2218" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-433" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-435" target="EFt91VPZfHSzSFag_mg6-438">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-434" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-433">
+          <mxGeometry x="-0.1319" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-435" value="检查 TO_PROJECT_BASE.&lt;br&gt;F_GEN_TIME是否&amp;lt;= 当前hour" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-501.25" y="3990" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-436" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-437" target="EFt91VPZfHSzSFag_mg6-435">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-437" value="for 循环：项目列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-521" y="3901" width="200" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-438" value="查询 TO_PROJECT_BASE&amp;nbsp;已启用/有效期/F_GEN_METHOD=‘SPEC’&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;的项目的所有&lt;br&gt;TO_REQ&lt;br&gt;F_CREATE_DATE=今天&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-547.5" y="4110" width="253" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-439" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-440" target="EFt91VPZfHSzSFag_mg6-443">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-440" value="根据TO_CONFIG_DISPATCH中配置的优先级/订单数量&lt;br&gt;&amp;nbsp;将项目 insert into T_DAILY_PROJECT&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-540.25" y="4761" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-441" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-443" target="EFt91VPZfHSzSFag_mg6-445">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-442" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-443" target="EFt91VPZfHSzSFag_mg6-437">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-750" y="4940" />
+              <mxPoint x="-750" y="3925" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-443" value="merge into 所有渠道的每日库存表T_DAILY_CHANNEL" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="4861" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-444" value="&lt;ul&gt;&lt;li&gt;排除 不可用/节假日，根据全局策略，获取所有渠道每日限额，无限额为空.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-341.25" y="4851" width="254" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-445" value="END" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-460.25" y="4961" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-446" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-447" target="EFt91VPZfHSzSFag_mg6-454">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-447" value="查询 TO_PROJECT_BASE&amp;nbsp;已启用/有效期/F_GEN_METHOD=‘TODAY’&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;的项目&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1362.01" y="3810" width="253" height="53.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-448" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-452" target="EFt91VPZfHSzSFag_mg6-454">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1115.51" y="4040" />
+              <mxPoint x="-1115.51" y="3936" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-449" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-448">
+          <mxGeometry x="-0.2218" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-450" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-452" target="EFt91VPZfHSzSFag_mg6-456">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-451" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-450">
+          <mxGeometry x="-0.1319" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-452" value="检查 TO_PROJECT_BASE.&lt;br&gt;F_GEN_TIME是否&amp;lt;= 当前hour" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1315.76" y="4000" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-453" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-454" target="EFt91VPZfHSzSFag_mg6-452">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-454" value="for 循环：项目列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1335.51" y="3911" width="200" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-455" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-456" target="EFt91VPZfHSzSFag_mg6-491">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-456" value="查询 TO_PROJECT_BASE&amp;nbsp;已启用/有效期/F_GEN_METHOD=‘TODAY’&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;的项目&lt;/span&gt;的所有&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;TO_REQ&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;F_CREATE_DATE=今天&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1362.01" y="4110" width="253" height="63.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-457" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-458" target="EFt91VPZfHSzSFag_mg6-461">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-458" value="根据TO_CONFIG_DISPATCH中配置的优先级/订单数量&lt;br&gt;&amp;nbsp;将项目 insert into T_DAILY_PROJECT&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1355.78" y="4759.5" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-459" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-461" target="EFt91VPZfHSzSFag_mg6-463">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-460" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-461">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1235" y="4930" />
+              <mxPoint x="-1394" y="4930" />
+              <mxPoint x="-1394" y="3940" />
+            </Array>
+            <mxPoint x="-1336" y="3940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-461" value="&lt;strike&gt;merge into 所有渠道的每日库存表T_DAILY_CHANNEL&lt;/strike&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-1315.53" y="4859.5" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-462" value="&lt;ul&gt;&lt;li&gt;&lt;strike&gt;排除 不可用/节假日，根据全局策略，获取所有渠道每日限额，无限额为空.&lt;/strike&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-1143.53" y="4849.5" width="254" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-463" value="END" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1275.78" y="4959.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-464" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-467" target="EFt91VPZfHSzSFag_mg6-484">
+          <mxGeometry y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-465" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-464">
+          <mxGeometry x="-0.2226" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-466" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-467" target="EFt91VPZfHSzSFag_mg6-468">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-467" value="请求去重&lt;br&gt;TO_PROJECT_BASE" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="4205" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-468" value="状态：内部验证失败" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="4245" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-469" value="Y" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-471" target="EFt91VPZfHSzSFag_mg6-476">
+          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-423.5" y="4674" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-470" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-471" target="EFt91VPZfHSzSFag_mg6-472">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-471" value="全局策略 去重&lt;br&gt;TO_CONFIG" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="4525" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-472" value="状态：全局验证失败" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="4565" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-473" value="&lt;ul&gt;&lt;li&gt;a.每用户每日 限制&lt;/li&gt;&lt;li&gt;b.每日/月 业务大类/小类/渠道 限制&lt;br&gt;&lt;/li&gt;&lt;li&gt;c. 特殊（采集类）项目内去重，同一用户只取优先级最高的一条，舍弃其他&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="4220" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-474" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;a. 每用户 M业务大类/N业务小类 每日/月 限制(非实时)&lt;/li&gt;&lt;li&gt;c. 黑名单 (all)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="4510" width="231" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-475" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-476" target="EFt91VPZfHSzSFag_mg6-440">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-476" value="生成订单，状态：待排单&lt;br&gt;TO_ORDER" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="4681" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-477" value="&lt;ul&gt;&lt;li&gt;失败原因：010a&lt;/li&gt;&lt;li&gt;失败原因：010b&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;失败原因：010c&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="4225" width="192" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-478" value="&lt;ul&gt;&lt;li&gt;失败原因：020a&lt;/li&gt;&lt;li&gt;失败原因：020b&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;失败原因：020c&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;失败原因：020d&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-148.5" y="4540" width="162" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-479" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="EFt91VPZfHSzSFag_mg6-467">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-420" y="4165" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-480" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-484" target="EFt91VPZfHSzSFag_mg6-471">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-481" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-480">
+          <mxGeometry x="-0.0253" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-482" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-484" target="EFt91VPZfHSzSFag_mg6-485">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-483" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-482">
+          <mxGeometry x="-0.078" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-484" value="节假日过滤&lt;br&gt;TO_PROJECT_BASE" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="4365" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-485" value="不修改 请求状态&lt;br&gt;等待下一日 定时任务 再次处理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="4400" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-486" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;a. 若项目相关渠道只剩一个且当前时间在 节假日，则保留请求不生成订单&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-739" y="4380" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-487" value="&lt;ul&gt;&lt;li&gt;f_batch1=当前日期&lt;br&gt;F_PRIORITY_PRO = 相关项目优先级&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;F_PRIORITY_BATCH = 1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;F_PRIORITY_FAIL = 1&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="4664" width="254" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-488" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="EFt91VPZfHSzSFag_mg6-507">
+          <mxGeometry y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-1235" y="4323.999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-489" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-488">
+          <mxGeometry x="-0.2226" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-490" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="1" target="EFt91VPZfHSzSFag_mg6-492">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-1155" y="4264" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-491" value="请求去重&lt;br&gt;TO_PROJECT_BASE" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1316" y="4202" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-492" value="状态：内部验证失败" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-1105" y="4244" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-493" value="Y" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-495" target="EFt91VPZfHSzSFag_mg6-500">
+          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-1238.5" y="4673" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-494" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-495" target="EFt91VPZfHSzSFag_mg6-496">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-495" value="全局策略 去重&lt;br&gt;TO_CONFIG" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1316" y="4525" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-496" value="状态：全局验证失败" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-1075" y="4565" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-497" value="&lt;ul&gt;&lt;li&gt;a.每用户每日 限制&lt;/li&gt;&lt;li&gt;b.每日/月 业务大类/小类/渠道 限制&lt;br&gt;&lt;/li&gt;&lt;li&gt;c. 特殊（采集类）项目内去重，同一用户只取优先级最高的一条，舍弃其他&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-1555" y="4219" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-498" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;a. 每用户 M业务大类/N业务小类 每日/月 限制(非实时)&lt;/li&gt;&lt;li&gt;c. 黑名单 (all)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-1555" y="4509" width="231" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-499" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-500" target="EFt91VPZfHSzSFag_mg6-458">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1235" y="4749" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-500" value="生成订单，状态：待排单&lt;br&gt;TO_ORDER" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-1316" y="4680" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-501" value="&lt;ul&gt;&lt;li&gt;失败原因：010a&lt;/li&gt;&lt;li&gt;失败原因：010b&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;失败原因：010c&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-985" y="4224" width="192" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-502" value="&lt;ul&gt;&lt;li&gt;失败原因：020a&lt;/li&gt;&lt;li&gt;失败原因：020b&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;失败原因：020c&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;失败原因：020d&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-963.5" y="4539" width="162" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-503" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-507" target="EFt91VPZfHSzSFag_mg6-495">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-504" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-503">
+          <mxGeometry x="-0.0253" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-505" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-507" target="EFt91VPZfHSzSFag_mg6-508">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-506" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-505">
+          <mxGeometry x="-0.078" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-507" value="节假日过滤&lt;br&gt;TO_PROJECT_BASE" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1316" y="4367" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-508" value="不修改 请求状态&lt;br&gt;等待下一日 定时任务 再次处理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-1105" y="4401" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-509" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;a. 若项目相关渠道只剩一个且当前时间在 节假日，则保留请求不生成订单&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-1554" y="4379" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-510" value="&lt;ul&gt;&lt;li&gt;f_batch1=当前日期&lt;br&gt;F_PRIORITY_PRO = 相关项目优先级&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;F_PRIORITY_BATCH = 1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;F_PRIORITY_FAIL = 1&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-1155" y="4663" width="254" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-511" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-512" target="EFt91VPZfHSzSFag_mg6-417">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-512" value="查询是否有“排单中“或”派单中“的项目&lt;br&gt;TO_DAILY_PROJECT" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-481" y="2320" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-513" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-514">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="329" y="2750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-514" value="更新 订单状态=“派单中”+ 优化锁" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="273.5" y="2661" width="111.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-515" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-519" target="EFt91VPZfHSzSFag_mg6-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-516" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-515">
+          <mxGeometry x="-0.1052" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-517" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EFt91VPZfHSzSFag_mg6-519" target="EFt91VPZfHSzSFag_mg6-520">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-518" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EFt91VPZfHSzSFag_mg6-517">
+          <mxGeometry x="-0.2919" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-519" value="匹配政策库" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1320" y="3236.5" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-520" value="状态：策略库匹配失败" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-1083.5" y="3256" width="133.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EFt91VPZfHSzSFag_mg6-521" value="&lt;ul&gt;&lt;li&gt;失败原因：020e&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="-960" y="3231" width="162" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
